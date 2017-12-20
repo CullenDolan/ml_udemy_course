@@ -2,7 +2,7 @@
 """
 Created on Mon Nov 13 10:27:54 2017
 
-@author: cudolan
+@author: 
 """
 
 #start with importing libraries
@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv("Data.csv")
+dataset = pd.read_csv("INSERT_FILE_NAME.csv")
 #this means that we took all the rows
 #and all the columns minus the last one
 x = dataset.iloc[:,:-1].values 
