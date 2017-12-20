@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Get the dataset
-dataset = pd.read_csv('Position_Salaries.csv')
+dataset = pd.read_csv('INSERT_FILE_NAME.csv')
 
 #Set the independent and dependent variables
 x = dataset.iloc[:,1:2].values
