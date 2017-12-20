@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Get the data
-dataset = pd.read_csv('Social_Network_Ads.csv')
+dataset = pd.read_csv('INSERT_FILE_NAME.csv')
 
 #Define the independent and dependent variables
 #iloc is an integer based position identifier for indexing
